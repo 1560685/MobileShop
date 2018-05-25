@@ -1,0 +1,103 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	padding: 0;
+	margin: 0;
+}
+.wrapper{
+	width: 1000px;
+	height: auto;
+	border: 1px solid #FC3;
+	margin: auto;
+}
+.header{
+	width: 100%;
+	height: 120px;
+	border: 1px solid #00c5ff;
+}
+.menu {
+	width: 100%;
+	height: 30px;
+	border: 1px solid #19c192;
+}
+.menu ul {
+	width: 100%;
+	height: 30px;
+	list-style:none;
+}
+.menu ul li {
+	float: left; /*định dạng*/
+	line-height: 30px;
+	margin-left: 10px;
+}
+.menu ul li a {
+	color:#F00;
+	text-decoration: none;
+}
+.menu a:hover {
+	text-decoration:underline;
+}
+.content {
+	width: 100%;
+	height: auto;
+	margin:auto;
+}
+.left{
+	width: 200px;
+	height: auto;
+	border: 1px solid #00cca8;
+	float: left;
+}
+.DanhSachSanPham ul{
+	width: 100px;
+	height: auto;
+	list-style:none;
+}
+.DanhSachSanPham ul li{
+	margin-left:10px;
+	margin:5px;
+}
+.DanhSachSanPham a{
+	text-decoration:none;
+	color:#F93;
+}
+.DanhSachSanPham a:hover{
+	text-decoration:underline;
+}
+.right{
+	width: 790px;
+	height: auto;
+	border: 1px solid #9C0;
+	float:right;
+}
+
+.ChiTiet ul{
+	width: 100%;
+	list-style: none;à
+}
+.ChiTiet ul li{
+	width: 150px;
+	height: auto;
+	text-align: center;
+	margin-left: 5px;
+	float:left;
+}
+.ChiTiet a{
+	text-decoration:none;
+}
+.ChiTiet a:hover{
+	text-decoration:underline;
+}
+.clear{
+	clear:both;
+}
+.footer {
+	width: 100%;
+	height: 80px;
+	border: 1px solid #55a4ee;
+}
+.searchform{
+	margin-top:5px;
+	float:right;
+}
